@@ -1,0 +1,23 @@
+/
+└── engn/                                # 시스템 상에서 엔진 관련 파일이 저장된 디렉토리
+    ├── confluent/                       # Confluent Kafka 플랫폼 관련 파일들이 저장된 디렉토리
+    │   ├── bin/                         # Kafka와 관련된 실행 파일들이 있는 디렉토리 (예: kafka-topics, kafka-console-producer 등)
+    │   ├── etc/                         # 설정 파일들이 저장된 디렉토리
+    │   ├── lib/                         # 라이브러리 파일들이 저장된 디렉토리
+    │   ├── libexec/                     # 보조 실행 파일들이 저장된 디렉토리
+    │   ├── log4j/                       # 로그 관련 설정 파일들이 저장된 디렉토리
+    │   │   ├── broker-log4j.properties  # Kafka 브로커 로그 설정 파일
+    │   │   ├── controller-log4j.properties # Kafka 컨트롤러 로그 설정 파일
+    │   │   ├── connect-worker-log4j.properties # Kafka 커넥트 워커 로그 설정 파일
+    │   ├── properties/                  # Kafka 서비스 관련 설정 파일들이 있는 디렉토리 (예: broker.properties, controller.properties 등)
+    │   ├── scripts/                     # Confluent 서비스를 시작/종료하는 스크립트들이 있는 디렉토리
+    │   │   ├── start-broker.sh          # Kafka 브로커를 시작하는 스크립트
+    │   │   ├── start-controller.sh      # Kafka 컨트롤러를 시작하는 스크립트
+    │   │   ├── start-control-center.sh  # Confluent Control Center를 시작하는 스크립트
+    │   ├── log/                         # 로그 파일들이 저장되는 디렉토리
+    │   ├── share/                       # 공유 라이브러리 파일들이 저장된 디렉토리
+    │   └── src/                         # 소스 코드 관련 파일들이 저장된 디렉토리
+    └── jdk-11.0.0.2/                    # JDK 11 관련 파일들이 저장된 디렉토리
+        └── bin/                         # JDK 실행 파일들이 있는 디렉토리 (예: java, javac 등)
+            ├── java                     # Java 실행 파일
+            └── other binaries...        # 기타 JDK 관련 실행 파일들
